@@ -1,0 +1,33 @@
+{
+	"mqtt_url": "ENC[AES256_GCM,data:c9HOw7E5lfXLIxqCC5fEfFSMmcenFxMWMW2t0nIxrMfRF47vH7w0ZoEC1lf2L1h8dPCKAO8F,iv:D9vdqcJu56VaSYDanPDSJmT59agBKgi8uUTYGfuelng=,tag:mZRs9BKjPo8BG1qa+ocacw==,type:str]",
+	"mqtt_options": "",
+	"livestream_user": "",
+	"livestream_pass": "",
+	"disarm_code": "",
+	"enable_cameras": "ENC[AES256_GCM,data:yp35DzQ=,iv:6Ks8e778MvomIUtbn0KDg0jS7FGqqBEBNcn92WZVs9g=,tag:INhcEBqDuWubQW5DofyQ+A==,type:bool]",
+	"enable_modes": "ENC[AES256_GCM,data:MJiFF9Y=,iv:RFQgPpP7yzD9OMwZLPhE5DPCzpsOzfcRYR4IkXR1Lzo=,tag:shtV9vuEYp+rr7p9hiV/Mg==,type:bool]",
+	"enable_panic": "ENC[AES256_GCM,data:vT9s1Q==,iv:ttwZW1rHo0IFLzQ/6kivmVgIglb9kDfz1CDm2ptUWNU=,tag:MGCCc5iTBTVJh9RdZxVrvw==,type:bool]",
+	"hass_topic": "ENC[AES256_GCM,data:X08Mx3g6dr5awfEOhWoN5QwmjvM=,iv:CocPrkDIV7D8UiA5cq313AdeEzqruj54ljqfsN4m7UM=,tag:eAnq1HVPkA37WT3MqFj6FA==,type:str]",
+	"ring_topic": "ENC[AES256_GCM,data:JYjMuA==,iv:rJ/Z92L+8ttFDYBvmnGKMUkYto4JQccQQTLN42ro5Hc=,tag:ZHecCg4oZioYupr8Q0ROGg==,type:str]",
+	"location_ids": [
+		""
+	],
+	"sops": {
+		"kms": null,
+		"gcp_kms": [
+			{
+				"resource_id": "projects/tuxnet-385112/locations/europe/keyRings/infrastructure-encryption/cryptoKeys/infrastructure-encryption",
+				"created_at": "2023-06-21T13:13:14Z",
+				"enc": "CiQA9PdEcDbaOD5G47s7rawItxItshQSy+PLkuay8IicCw1KtmASSQA2N6cCRgLWCo3pImBmB9TAeQKhpY3j25Alc37oYRAZ+UPL+KPVL0S2CUgZOjrRWljrCqEUOrgsHYwLFcxseyP+qCvWU8MXXRI="
+			}
+		],
+		"azure_kv": null,
+		"hc_vault": null,
+		"age": null,
+		"lastmodified": "2023-06-21T13:13:15Z",
+		"mac": "ENC[AES256_GCM,data:wJSnkdGG7AS46cfENJREKePsUNuqWh/grgJZy+YzXhs/1gPoMt4gA2S6xyNSnwqULa+wK4yhUTjieQ7359UF8HzFIeMG26TwIqeY+CFZ2CMDRzxHFTKZ8oJ7V+AO66nh0qnv+SNTgwYQSet8C6kCH7NSFkpRkRktESJ1fnCHtnk=,iv:7orOEHpEDYO4I/rkOPq/5WY232S3XWyEayIMZwWX71g=,tag:J96t4L2LgM4mmFCveRXXkg==,type:str]",
+		"pgp": null,
+		"unencrypted_suffix": "_unencrypted",
+		"version": "3.7.3"
+	}
+}

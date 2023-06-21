@@ -1,0 +1,3 @@
+# we can exclude temporary files et. al. from syncing to S3.
+tmp*
+trace.saved_traces
